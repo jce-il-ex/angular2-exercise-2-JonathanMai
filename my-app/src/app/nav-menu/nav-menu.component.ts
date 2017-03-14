@@ -8,9 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavMenuComponent implements OnInit {
 
   constructor() { }
-  list = [{txt: 'Home'}, {txt: 'Games'}, {txt: 'Images'}, {txt: 'Contact us'}, ]
+  list = [{txt: 'Home'}, {txt: 'Games'}, {txt: 'Images'}, {txt: 'Contact us'}, ];
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }
