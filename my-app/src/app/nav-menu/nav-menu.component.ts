@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavMenuComponent implements OnInit {
 
+  
+  list = [{txt: 'Home'}, {txt: 'Games'}, {txt: 'Images'}, {txt: 'Contact us'} ];
   constructor() { }
-  list = [{txt: 'Home'}, {txt: 'Games'}, {txt: 'Images'}, {txt: 'Contact us'}, ];
-
   ngOnInit() { }
 
 }
